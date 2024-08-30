@@ -1,0 +1,501 @@
+SensorID,Location,SensorType,ReadingTime,Value,Unit,Status,MaintenanceRequired,LastMaintenanceDate
+10fb425a-f530-44c3-81df-e2c20058b270,Johns Turnpike,Temperature,2024-04-19 06:19:51,22.63,°C,Inactive,Yes,2024-03-18
+be8b5b34-7efa-40b0-bbc2-c6797aecf265,Smith Gardens,Air Quality,2024-03-13 15:45:00,38.39,µg/m³,Faulty,No,2024-07-15
+7b2e82a9-b598-4e85-809a-8d7cde154bcf,Katherine Turnpike,Air Quality,2024-01-30 17:12:06,47.12,µg/m³,Inactive,No,N/A
+107ea8bc-0298-429d-9eac-fb6f24a9726c,Jeffrey Shoal,Temperature,2024-01-26 05:16:44,43.33,°C,Active,No,2024-04-15
+296e78fa-c332-4d20-8e1b-f3942053daa8,Stewart Throughway,Humidity,2024-02-16 19:44:35,74.62,%,Inactive,No,2024-06-07
+dd70584d-72ab-41c7-8b95-fc193f26d875,Nathan Orchard,Humidity,2024-06-25 19:25:12,4.32,%,Active,Yes,N/A
+7d2b1520-9b42-4618-95eb-287c2ba9f0ad,Hunter Extensions,Energy Consumption,2024-05-15 05:49:48,99.92,kWh,Inactive,Yes,2024-05-14
+d0cb66ad-a977-4138-b04d-008628cf4e0e,Alyssa Wall,Energy Consumption,2024-06-28 17:30:07,55.98,kWh,Faulty,No,2024-02-25
+cf55bd69-2bf7-45ee-9ea0-17a4e72699d5,Dennis Tunnel,Temperature,2024-03-08 18:07:33,29.85,°C,Inactive,No,N/A
+670f1b51-da0f-4e12-84da-c28870ea241b,Jennifer Ramp,Noise Level,2024-07-13 14:01:58,9.07,dB,Faulty,Yes,N/A
+b7f09d32-e32f-4cde-b699-3bcf82a0d690,Vaughan Prairie,Energy Consumption,2024-04-02 09:12:13,65.22,kWh,Faulty,Yes,N/A
+810be921-5bc7-4c3a-9798-4cf8d6fb2d39,Mary Spring,Humidity,2024-03-14 03:24:19,67.97,%,Faulty,No,N/A
+cb5a047d-3c00-48b6-91b3-7af75f3c4ddb,Peterson Junctions,Humidity,2024-02-24 05:26:57,72.51,%,Active,Yes,N/A
+3d701283-c375-42d8-b532-ad77c4fc87ac,Byrd Burgs,Temperature,2024-05-15 02:02:19,0.79,°C,Inactive,Yes,N/A
+d73d4fbf-7d0d-4eda-9507-ac952378c213,Washington Parkway,Energy Consumption,2024-05-22 19:01:16,9.37,kWh,Active,Yes,N/A
+49872b3c-dae0-40e7-86c1-80733e404abb,Smith Forge,Air Quality,2024-06-28 22:31:27,20.18,µg/m³,Active,No,N/A
+89fafcc4-5b99-405d-9914-4571c6273f42,Derrick Brooks,Humidity,2024-06-19 21:33:20,0.75,%,Active,Yes,N/A
+10f31547-2026-49dc-9de1-5538a784abf8,Catherine Dale,Humidity,2024-05-22 19:32:13,12.94,%,Faulty,No,2024-08-19
+4725562d-900f-4111-958d-2df3a7694c9e,Christian Street,Noise Level,2024-02-07 07:08:42,67.21,dB,Inactive,Yes,2024-05-03
+9e9e9776-0905-4c23-8756-a2bc3e34b031,Angela Mountains,Noise Level,2024-08-14 07:49:12,72.49,dB,Inactive,No,N/A
+8c005aa5-1cff-4aab-83fe-7d75e6168f99,Beck Knoll,Traffic Flow,2024-03-13 18:34:04,51.23,vehicles/hour,Active,Yes,N/A
+9c3282dc-54a2-496e-96a4-b1faa3f7d855,Washington Locks,Temperature,2024-07-29 01:23:26,52.68,°C,Inactive,Yes,2024-04-23
+d03708eb-b307-4736-976f-10afb380ee0b,Hughes Vista,Air Quality,2024-07-15 00:27:29,0.58,µg/m³,Inactive,Yes,N/A
+65958586-8702-498e-87b2-dd4dd0a54dc5,Xavier Spur,Air Quality,2024-07-08 17:41:35,81.93,µg/m³,Inactive,Yes,N/A
+459434c3-f357-46d9-983f-7aa436aa1486,Brian Track,Air Quality,2024-06-01 16:55:55,66.34,µg/m³,Active,No,N/A
+6c185cec-3f4f-4f8a-9221-56e8fb19dfdc,Colin Ramp,Air Quality,2024-07-22 21:14:52,80.67,µg/m³,Faulty,Yes,N/A
+5801ad45-c376-47ae-af9a-1d74c3b557fc,Samantha Parkways,Humidity,2024-02-20 11:56:58,37.35,%,Active,Yes,2024-04-08
+a5058182-7898-41b2-a44d-5873abf71beb,James Ford,Humidity,2024-08-27 12:21:37,58.09,%,Active,Yes,N/A
+44877e33-21ef-4dd8-a984-274827750783,Joseph Wells,Noise Level,2024-01-18 14:08:15,5.93,dB,Faulty,Yes,N/A
+6e71d099-1e6e-4d60-a748-8696c99e548d,Green Extension,Noise Level,2024-04-14 19:41:29,0.13,dB,Inactive,No,2024-06-18
+60d25914-6650-407a-a489-91f3eb12b32d,Kara Hollow,Humidity,2024-08-01 07:04:19,29.66,%,Active,No,2024-04-19
+2939512f-d77e-4882-a565-579dce0b3e91,David Mission,Temperature,2024-03-25 03:11:52,14.07,°C,Faulty,No,N/A
+7f11db2b-77b5-4640-bb39-2f51aba26901,Joseph Prairie,Traffic Flow,2024-06-20 12:09:32,68.18,vehicles/hour,Inactive,No,N/A
+c8ea214f-d25d-474c-917c-ef3f99dc088a,Williams Highway,Noise Level,2024-06-21 23:32:17,94.14,dB,Inactive,Yes,2024-02-28
+57272173-9fe8-4f0b-a8de-6f2050b7ba7f,Brett Causeway,Humidity,2024-06-08 14:34:59,11.78,%,Active,Yes,N/A
+b3340a05-99be-4126-aba5-d544c40e49d8,Daniel Shoal,Noise Level,2024-04-14 05:12:54,41.15,dB,Active,Yes,N/A
+c6ea87b2-7674-4dde-ba7a-8ebfed530625,Alexander Inlet,Air Quality,2024-06-24 07:59:16,8.85,µg/m³,Active,Yes,N/A
+739b6581-6334-408f-a03d-796d54a084b0,Mccormick Port,Humidity,2024-03-12 18:55:01,93.54,%,Active,No,N/A
+168b9f1e-0754-4fa4-91b0-f49dddbb899d,Deanna Junctions,Humidity,2024-05-07 17:27:17,11.09,%,Inactive,No,2024-07-31
+591220d2-c3cb-457a-953b-cd0ac4f43652,Angela Divide,Humidity,2024-01-01 01:03:20,83.25,%,Active,No,N/A
+8fd79a26-bb04-4462-9f2c-7a2f095f30a0,Adam Walk,Humidity,2024-06-26 12:44:03,80.99,%,Active,Yes,N/A
+eb1985ab-fe4b-4b7c-9d08-5de9fca123e0,Angela Vista,Temperature,2024-02-10 16:29:15,82.34,°C,Faulty,Yes,N/A
+c83440b5-34a0-4e93-87ee-d62d0342564e,David Inlet,Temperature,2024-01-23 10:30:22,43.63,°C,Faulty,No,2024-04-03
+51fc8869-53ff-4e0b-952a-e0cae21829ed,Duke Villages,Energy Consumption,2024-04-05 18:26:27,12.31,kWh,Faulty,No,N/A
+519b1245-2b96-4ee8-8140-c99776d083ff,Ramirez Neck,Humidity,2024-08-04 11:18:20,45.14,%,Active,No,N/A
+f4b8126d-c3c5-4797-a528-4c3a74fce931,Craig Forges,Air Quality,2024-02-25 11:12:31,0.34,µg/m³,Inactive,No,N/A
+cd9df12d-0063-46b2-be6c-79bcafd5f195,Moreno Walk,Temperature,2024-01-06 05:56:57,14.11,°C,Inactive,Yes,N/A
+178c3dde-d205-4127-8e3e-cef118614b2d,Jason Orchard,Humidity,2024-07-20 07:56:57,14.25,%,Inactive,Yes,2024-06-10
+0ebc937a-6af5-4abd-ae8f-941933be9dae,John Union,Energy Consumption,2024-07-29 22:44:14,56.04,kWh,Active,No,2024-05-11
+dbbc0947-44fc-4728-8e9e-f4e50598d375,Martinez Turnpike,Humidity,2024-05-13 18:14:37,49.44,%,Faulty,Yes,N/A
+319d2741-f303-48d9-b112-8ddcccac21d3,Randolph Forges,Traffic Flow,2024-08-19 20:00:21,7.94,vehicles/hour,Active,Yes,2024-07-07
+58b59542-0e7a-4584-8b29-824c811ce43a,Franklin Burgs,Traffic Flow,2024-05-24 08:11:21,20.96,vehicles/hour,Faulty,Yes,N/A
+b1198483-082e-484b-82c2-0ff9aaaa8c0c,Michelle Underpass,Air Quality,2024-02-02 16:09:03,51.93,µg/m³,Inactive,No,N/A
+c256a615-7590-4377-8ec5-764baacf4273,Powell Pass,Energy Consumption,2024-04-19 18:07:51,28.5,kWh,Inactive,No,2024-03-22
+f25edea4-00f6-46ca-9f2b-4bfe752e4b86,David Rue,Air Quality,2024-03-27 01:54:44,75.8,µg/m³,Active,No,2024-03-02
+748662b3-8279-4634-96e7-337239de1523,Crawford Mountain,Noise Level,2024-03-23 19:12:06,73.59,dB,Active,No,N/A
+e7cd91c1-07d1-4e17-a1e3-49f001e74634,Christian Flats,Noise Level,2024-07-18 06:45:21,66.02,dB,Faulty,Yes,N/A
+106a6f89-4445-4be9-a5f9-e7a6910a5cec,Steven Fall,Humidity,2024-06-21 01:52:24,49.08,%,Inactive,Yes,2024-07-20
+2d8f7af4-e99d-4894-9599-8d2482d8b545,Brown Brook,Traffic Flow,2024-06-08 01:16:53,57.55,vehicles/hour,Active,Yes,2024-05-29
+a06be7e1-4f5b-4364-ac84-a31bb9a981ca,Montgomery Glens,Air Quality,2024-03-01 07:57:05,93.47,µg/m³,Faulty,Yes,N/A
+e135946e-78cf-489d-8d1d-78b9892d99c4,Jessica Ridges,Energy Consumption,2024-05-29 10:05:03,4.74,kWh,Active,No,2024-01-09
+fe6851ac-c780-4ba9-a6c8-aaa318d19fe0,Sherman Land,Noise Level,2024-07-07 17:33:28,96.95,dB,Active,No,2024-08-11
+98090f0f-1911-43de-9d37-1034e5665de2,Stephens Falls,Noise Level,2024-03-01 16:59:46,26.86,dB,Inactive,No,2024-04-03
+accae22a-8a88-4974-9498-bdede9474449,Navarro Walks,Traffic Flow,2024-03-28 21:02:12,72.05,vehicles/hour,Faulty,Yes,2024-01-04
+a23241ec-29b4-41ab-b224-60443c6706d5,Butler Drive,Energy Consumption,2024-07-15 09:25:59,62.03,kWh,Active,Yes,N/A
+66cefd9b-b428-4320-87b4-a208a9dfd624,Salazar Pine,Energy Consumption,2024-02-09 17:16:38,66.69,kWh,Inactive,No,N/A
+58517d9d-b3ad-4dc1-8a4f-9a919c8b1483,Rowland Harbors,Energy Consumption,2024-04-18 17:32:20,15.11,kWh,Inactive,No,2024-06-02
+e95be4f4-53bb-425d-8030-da1fc009433b,Higgins Skyway,Energy Consumption,2024-06-11 23:35:37,10.31,kWh,Inactive,Yes,N/A
+695187e9-d634-43bd-9f30-e5168e4c23a4,Hayley Overpass,Temperature,2024-04-03 05:51:56,52.15,°C,Active,Yes,N/A
+f57e6ecf-7589-4ecd-a8b6-fcd0a1177e55,Simpson Trace,Temperature,2024-03-03 05:51:15,7.95,°C,Active,Yes,2024-05-22
+f3092b85-31c3-4020-9f7d-98bb627fd323,Jeffrey Vista,Traffic Flow,2024-07-01 21:54:50,36.84,vehicles/hour,Faulty,No,N/A
+2352e062-af9b-413c-8f77-945f09d28345,Samuel Passage,Temperature,2024-03-28 07:52:05,65.47,°C,Active,No,2024-08-19
+f30f1cd4-66be-431c-8048-f1330a721f45,William Mountain,Humidity,2024-07-30 18:27:15,43.97,%,Active,No,N/A
+3d0a519c-b67c-4f1e-94a4-aaf7f4d37e9f,Shawn Mews,Temperature,2024-07-12 19:15:29,34.11,°C,Faulty,No,N/A
+55ec4c92-c345-4b16-a0f3-5c1520653153,Perez Mews,Noise Level,2024-03-16 08:37:02,83.49,dB,Faulty,Yes,2024-01-22
+d723ba18-7901-4eaa-9b00-d29a4f203254,Ashley Extension,Air Quality,2024-08-06 21:47:01,94.7,µg/m³,Active,No,2024-06-03
+169c8779-72cf-44c1-960b-c6768c678d0b,David Corners,Air Quality,2024-06-15 19:55:50,88.92,µg/m³,Inactive,No,N/A
+ffe31073-945e-4057-9bf2-8a92ee46a768,Dalton Turnpike,Energy Consumption,2024-02-20 19:25:27,81.26,kWh,Inactive,Yes,2024-05-11
+7dfab0b8-def5-4508-aab8-bbb27ebb40a4,Sean Freeway,Temperature,2024-01-28 01:38:21,28.52,°C,Faulty,No,2024-03-22
+7636b0ca-d246-4677-8bd7-c93d87c684e7,Kathleen Plains,Traffic Flow,2024-01-21 19:04:12,92.15,vehicles/hour,Active,No,2024-03-01
+208eb1bc-6f45-4885-8013-085153d9ee48,Marcus Highway,Air Quality,2024-03-06 12:36:58,14.8,µg/m³,Faulty,Yes,N/A
+74505295-60b5-4509-8116-2d722aa563c7,Kelsey Circle,Humidity,2024-05-20 17:14:15,10.89,%,Inactive,No,2024-06-02
+50c543ae-37df-4163-8047-b72e884e0044,Santana Mountain,Temperature,2024-08-13 14:33:58,76.72,°C,Active,Yes,N/A
+25b7e82c-5a36-4e08-bef1-20d71a693ce9,Brooks Prairie,Traffic Flow,2024-07-31 00:16:22,88.19,vehicles/hour,Faulty,Yes,2024-08-27
+df4f3180-3bd0-4485-bc68-97816e87ecbd,Benjamin Port,Energy Consumption,2024-03-13 21:19:55,13.6,kWh,Inactive,Yes,2024-07-22
+545fc781-df3a-43d8-a1fd-2334f2284692,Kayla Common,Noise Level,2024-01-29 17:37:10,81.96,dB,Faulty,No,N/A
+3297efd6-bacd-4dff-874c-78948e3fd72e,Willie Dale,Temperature,2024-06-12 02:41:08,54.76,°C,Active,No,N/A
+fa51ad33-9b14-4831-82b2-88db9615bdf6,Kelly Lane,Energy Consumption,2024-05-16 04:41:38,42.25,kWh,Active,No,N/A
+8adcb07d-60cd-4a8d-aec8-163560ae6c4c,Parrish Ramp,Air Quality,2024-07-07 12:11:59,20.59,µg/m³,Active,Yes,2024-04-24
+26f7c9f2-4ae8-4bcd-99e9-74c8eef56bca,Steele Rapids,Energy Consumption,2024-07-20 07:20:29,79.32,kWh,Faulty,No,N/A
+f1a3e2dc-3979-45c6-ac67-c1baa60451ca,Rangel Isle,Temperature,2024-03-30 18:14:51,6.73,°C,Active,Yes,2024-03-01
+96d75841-b22d-44d2-adc3-f7fdcd897408,Mark Mews,Humidity,2024-01-19 14:54:55,84.25,%,Active,No,2024-04-11
+73ce2615-73f8-488f-9b55-2d0d2cf44523,Tran Fort,Temperature,2024-08-14 22:14:57,46.33,°C,Inactive,No,N/A
+28f4e191-fcd8-4168-90f0-1e9e206a33a4,Devon Groves,Air Quality,2024-08-25 14:18:01,88.21,µg/m³,Inactive,Yes,2024-02-21
+5c467f23-d8b5-4d85-b4fd-4d51ed6a3f40,Hughes Mills,Temperature,2024-02-23 10:05:31,89.93,°C,Inactive,No,N/A
+5bd81e12-5b55-4eb7-b65b-0c365dd724bc,James Loop,Noise Level,2024-01-10 10:06:02,34.11,dB,Inactive,Yes,N/A
+0c6ce9e2-7eef-4357-8ac4-e7f9f034d2ce,Andrew Pike,Air Quality,2024-06-06 04:07:36,52.35,µg/m³,Faulty,No,2024-04-20
+c164623c-aea7-4765-b1e8-30512c884ae7,Jackson Haven,Air Quality,2024-05-25 16:52:30,76.71,µg/m³,Active,No,2024-08-17
+e64dadf7-15d6-4b18-aab0-66ae5deead77,Christina Drive,Noise Level,2024-03-07 01:30:28,52.46,dB,Active,No,N/A
+d0e83fef-0a86-4b58-8609-9b1c34594400,Brent Forks,Energy Consumption,2024-02-16 11:31:16,54.27,kWh,Active,Yes,N/A
+0305e7f0-6bfd-4af9-9f69-50586c94f3a4,Perry Brooks,Air Quality,2024-01-06 15:34:42,24.77,µg/m³,Faulty,Yes,N/A
+aaca39e0-52be-470b-bb26-b4f1c9d81333,Nathan Centers,Temperature,2024-08-22 22:37:44,54.85,°C,Inactive,No,2024-05-29
+4156c912-db7b-4aa6-9690-072c971e0885,Tammie Prairie,Traffic Flow,2024-03-24 12:06:23,98.1,vehicles/hour,Active,Yes,N/A
+0a551e71-1132-4360-b1d0-64e9668054a5,Hatfield Glen,Traffic Flow,2024-04-08 16:52:26,83.45,vehicles/hour,Faulty,Yes,N/A
+87821dbd-d4ef-4ebb-86a6-b07350b5c14d,Brown Keys,Noise Level,2024-05-15 07:02:35,36.79,dB,Faulty,Yes,N/A
+9e5fef25-2b0e-4695-8c5b-5795833a32f3,Stephanie Village,Noise Level,2024-02-16 10:53:22,15.43,dB,Faulty,Yes,N/A
+353faf06-d9e3-4015-ab61-3ff2a7cabf75,Love Mountains,Energy Consumption,2024-06-14 00:51:00,52.98,kWh,Inactive,No,N/A
+ec400c86-b3cc-458e-a4a7-7ddb87938235,Heidi Throughway,Air Quality,2024-01-24 06:45:30,47.54,µg/m³,Faulty,No,2024-06-20
+9fb89a97-70eb-4bcf-8176-b21262352634,Melissa Knoll,Traffic Flow,2024-07-15 01:57:11,15.74,vehicles/hour,Inactive,Yes,2024-08-22
+8c952bf8-c3aa-4572-84b4-c7a34eb24e7a,Samuel Pine,Traffic Flow,2024-07-10 05:02:48,23.44,vehicles/hour,Active,No,N/A
+0feb8f53-2f36-49aa-aa7e-f0b2b060cc97,Allison Expressway,Traffic Flow,2024-08-20 01:46:17,26.93,vehicles/hour,Faulty,Yes,N/A
+e25ce2d8-79da-4a19-b98d-4f9d61ad7378,Nicole Plaza,Noise Level,2024-07-01 02:08:03,45.42,dB,Active,No,N/A
+826b6a11-d630-4649-b7b9-21424a0b2e72,Mann Spring,Traffic Flow,2024-01-23 09:25:41,64.02,vehicles/hour,Faulty,No,2024-07-20
+96e88e64-4435-46fe-a5da-875c96f45abe,Kristina Villages,Traffic Flow,2024-06-26 12:03:07,11.35,vehicles/hour,Inactive,Yes,2024-05-28
+48b7b89c-9312-4270-8a12-b770457619f9,Sarah Highway,Traffic Flow,2024-02-16 01:18:34,5.06,vehicles/hour,Inactive,Yes,N/A
+2dcee389-0548-414f-9f4f-2893225d7dee,Elizabeth Falls,Humidity,2024-07-31 23:50:47,10.07,%,Active,Yes,N/A
+c9c53da7-9b4a-446f-8630-0ab7b42563a4,Ricky Villages,Humidity,2024-05-03 09:51:08,78.98,%,Faulty,No,2024-07-29
+08d403bf-4547-4964-ad24-7f2b2207791b,Roy Key,Traffic Flow,2024-06-06 09:20:34,3.93,vehicles/hour,Faulty,Yes,2024-01-25
+469c0cc1-e9cc-4e17-92b2-19c119575eda,Davenport Corners,Traffic Flow,2024-04-01 15:03:34,86.01,vehicles/hour,Inactive,No,2024-03-02
+ad5a3eb0-2083-422c-826a-fd5a98fa1d38,Ramirez Alley,Humidity,2024-03-31 00:41:48,17.02,%,Inactive,Yes,2024-08-03
+4090bb36-8d5e-4cd3-b0ca-56bf38020cb0,Moore Estates,Energy Consumption,2024-05-03 05:27:07,25.3,kWh,Active,No,N/A
+d1e08685-4996-4f7f-a770-fab61f354e09,Stewart Vista,Traffic Flow,2024-03-13 14:56:49,75.6,vehicles/hour,Faulty,Yes,N/A
+83c206b7-4259-4485-adc7-74bff80ce07c,Smith Burgs,Temperature,2024-02-14 06:01:24,23.43,°C,Active,Yes,2024-07-04
+b1abdd3b-2140-4a47-9b17-16364f6033c8,Butler Groves,Noise Level,2024-05-02 08:20:28,32.19,dB,Faulty,Yes,N/A
+78097799-5444-42db-bb98-f0162777f2de,Jones Vista,Humidity,2024-03-09 14:33:09,98.27,%,Inactive,Yes,N/A
+dbed6ddb-ba3f-4b24-b042-c74853875b7e,Andrew Light,Humidity,2024-05-20 13:26:47,93.13,%,Inactive,No,N/A
+bb5e8cf1-0913-4715-844c-126f9d0ca9e8,Gina Dam,Humidity,2024-03-08 09:42:58,84.67,%,Inactive,Yes,2024-01-06
+0f522d61-bc71-40b2-b994-dc21c9ff3919,Regina Locks,Energy Consumption,2024-02-05 16:43:35,15.57,kWh,Faulty,Yes,2024-07-29
+3feb4cfb-1fb3-4828-91bf-00fa3a200951,Jesse Lights,Air Quality,2024-08-15 22:41:35,83.37,µg/m³,Inactive,Yes,2024-01-10
+325aab8c-d0a7-46f4-acb2-9762719a53f8,Rivas Ramp,Temperature,2024-06-14 20:19:25,47.42,°C,Active,No,N/A
+29281ef0-5f66-4bc4-9847-dfd819a31212,Teresa Mount,Air Quality,2024-03-14 21:18:28,84.91,µg/m³,Inactive,No,N/A
+28341c2a-a700-4455-8171-160d52094a86,Moore Run,Humidity,2024-06-29 02:43:42,25.04,%,Active,Yes,2024-08-09
+3c3347fb-3c32-455f-ba38-670b9456a0dc,Jill Cliff,Noise Level,2024-04-30 00:20:10,6.83,dB,Faulty,Yes,2024-04-15
+6654511f-838e-483a-a312-85ef910e25bd,Wright Manor,Traffic Flow,2024-01-09 03:11:53,88.62,vehicles/hour,Inactive,Yes,N/A
+d0dd1a97-75ab-46ce-a3e4-6db6ed2deb72,Harrison Walks,Traffic Flow,2024-01-20 22:03:09,32.2,vehicles/hour,Inactive,No,N/A
+88f2c3eb-24e8-443d-a588-796be3439711,Jenny Forges,Energy Consumption,2024-03-02 23:42:52,52.99,kWh,Active,No,2024-04-09
+5fbf9ea8-7d4f-4cec-a2f2-d5d0f432243a,Wilson Ports,Traffic Flow,2024-02-25 03:30:41,6.61,vehicles/hour,Faulty,Yes,2024-08-24
+595b8b77-018c-49d4-8c30-3a7dde1a343f,Walls Valleys,Noise Level,2024-02-10 15:06:53,77.3,dB,Faulty,Yes,2024-06-23
+4da95481-f117-4c4c-a7ee-13788585bb04,Jacob Forge,Air Quality,2024-03-15 04:48:58,44.48,µg/m³,Faulty,Yes,2024-02-20
+c77a96d8-c2e1-47a5-95fa-7456f38e3415,Walter Centers,Noise Level,2024-04-24 19:24:42,67.28,dB,Active,No,2024-01-18
+4b47167a-7c6b-4b95-89d9-3721272a29ad,Robert Flat,Noise Level,2024-03-16 18:50:10,75.51,dB,Active,No,2024-07-30
+ceeb0c92-1397-428c-a8d0-471a488c4a74,Jeffrey Vista,Traffic Flow,2024-05-27 15:45:23,46.58,vehicles/hour,Faulty,No,2024-04-19
+26749bb7-7bcd-4e7b-b4e6-8281b9e76525,Evans Squares,Humidity,2024-07-20 01:57:43,66.78,%,Active,No,N/A
+5a44baf2-6048-43b5-ac96-5469bad526e3,Scott Throughway,Air Quality,2024-04-16 08:20:09,64.8,µg/m³,Faulty,Yes,2024-04-19
+d8fa7717-84e8-4475-9990-6d9cbf7b11d0,Garza Bypass,Traffic Flow,2024-07-22 04:47:35,88.06,vehicles/hour,Active,No,N/A
+2fb0d188-1b8e-4b13-8c43-daa1ae13987d,Marcus Overpass,Energy Consumption,2024-06-28 11:29:39,1.03,kWh,Faulty,No,2024-01-30
+971e5413-c8ad-4cc6-9d44-951f3e50d8f7,Michael Well,Air Quality,2024-05-13 16:06:25,45.74,µg/m³,Active,No,2024-02-11
+285965d4-9bee-43b9-926b-f4c94d89f884,Michael Throughway,Noise Level,2024-01-03 14:27:05,65.75,dB,Active,Yes,N/A
+9472f555-b3b0-4ea1-bf8c-f3e597050301,Douglas Valley,Temperature,2024-01-19 13:02:07,30.37,°C,Inactive,No,2024-04-04
+21bcc200-0555-41ca-b4be-937054b9c4c1,Michelle Crest,Humidity,2024-07-27 09:38:16,88.07,%,Active,Yes,N/A
+f04bfc42-e4c6-4ce9-814a-aa03f605f5eb,Samantha Via,Energy Consumption,2024-06-17 08:14:35,40.08,kWh,Active,Yes,2024-02-04
+6fbf8d28-7d1f-4cfc-89bf-04e0484ef7d7,Watkins Glens,Temperature,2024-04-14 23:10:54,29.42,°C,Inactive,Yes,2024-02-10
+1f27edcf-2040-4b7d-a8e7-b1138e17da4a,Moody Ridge,Air Quality,2024-03-28 18:52:12,4.93,µg/m³,Inactive,No,N/A
+e34dff2d-548c-48a9-8efb-6c437192dcf6,Rachael Motorway,Humidity,2024-07-10 16:24:06,32.05,%,Faulty,Yes,N/A
+bc02739c-21e4-4bbd-8024-0f89a31cef2b,Brown Coves,Temperature,2024-06-28 04:22:23,30.22,°C,Faulty,Yes,2024-06-01
+737bda75-42f0-4931-b597-b9d3d2145efc,Zachary Crest,Energy Consumption,2024-03-19 01:39:46,95.3,kWh,Inactive,No,2024-04-04
+90baa5f9-a841-46fa-9cb0-88c00964091c,Jessica Ford,Energy Consumption,2024-04-13 08:00:16,85.47,kWh,Faulty,Yes,2024-01-13
+002ce23e-ed01-4dce-965f-3c9acfec0fc8,Pace Circles,Humidity,2024-08-19 16:09:21,27.4,%,Faulty,No,N/A
+57180c15-f2aa-4a2d-8efc-b1ec4a6be9e9,Wheeler Centers,Humidity,2024-08-06 05:14:42,3.95,%,Active,No,2024-05-21
+6663020d-e18b-4df5-9501-5e4c846b69fa,Garcia Plains,Energy Consumption,2024-05-12 22:14:49,10.03,kWh,Inactive,Yes,2024-06-02
+88a0a336-1c06-4de1-8691-c6a27e5e2ca5,Marilyn Plains,Traffic Flow,2024-06-19 23:44:27,94.89,vehicles/hour,Faulty,No,2024-01-23
+f6a3013e-db46-475e-9604-66cd3ac295b8,Mary Tunnel,Humidity,2024-01-03 14:13:40,16.36,%,Inactive,No,2024-02-01
+f6c518f3-3de3-4986-bc44-786aeb163b6a,Williams Via,Noise Level,2024-08-23 08:27:06,56.81,dB,Active,Yes,N/A
+92b16fcd-9906-498b-a3ea-7a172dffcac7,Carpenter Roads,Humidity,2024-02-12 13:36:42,51.36,%,Active,No,N/A
+0f9607ec-6934-49e7-9190-275f3f0b39d2,Stacey Crest,Traffic Flow,2024-03-09 20:10:18,52.35,vehicles/hour,Faulty,No,N/A
+0bbd842b-6c1a-4e07-a4eb-fc144c4a8d11,Danielle Views,Traffic Flow,2024-01-09 13:43:01,92.73,vehicles/hour,Inactive,No,2024-02-17
+838485c1-511b-4b25-9061-abd8e2703bcb,Rebecca Underpass,Noise Level,2024-01-16 18:05:42,34.92,dB,Inactive,No,2024-04-02
+ab7d9741-5f1e-44f8-aee8-56144a300740,Mary Circle,Temperature,2024-03-16 23:12:17,49.32,°C,Inactive,No,N/A
+47d47749-29d8-480a-8de6-95cab52d70fd,Brittany Mountain,Temperature,2024-08-12 18:41:09,48.22,°C,Active,Yes,N/A
+1c8c4ef6-1eef-4074-910f-2f02f008034b,Alyssa Flat,Noise Level,2024-05-28 08:56:30,42.71,dB,Active,Yes,N/A
+99919170-bc19-4038-b01a-112f43d04bb7,Michael Road,Traffic Flow,2024-03-25 20:41:15,64.4,vehicles/hour,Inactive,No,2024-05-29
+20da2674-b05a-46e2-98c6-614501da2fd6,Ruth Lake,Noise Level,2024-03-11 11:58:19,82.61,dB,Faulty,Yes,N/A
+ebb49399-489c-4821-b504-f4912ae3d5b9,Smith Lights,Noise Level,2024-01-18 18:13:33,95.5,dB,Active,No,N/A
+c7d9fb9f-bc15-457c-b641-6e418e093522,Brian Harbors,Temperature,2024-05-20 09:47:22,30.01,°C,Active,Yes,2024-05-07
+e6ce15b6-6345-4977-9f66-2fa5ea86c6a0,Sarah Hills,Temperature,2024-04-30 11:11:45,18.28,°C,Inactive,No,N/A
+a14d9b96-b3d3-489d-9a82-72309c7020e2,Jonathan Glens,Noise Level,2024-03-23 15:44:04,66.92,dB,Inactive,No,2024-06-08
+f1b7428d-3522-4a99-a963-7bedf0c742d7,Debra Estates,Temperature,2024-06-28 23:38:16,87.27,°C,Inactive,No,N/A
+cb25a830-c920-4c5d-8b49-98c1c58a954e,Samantha Station,Temperature,2024-08-22 14:42:15,72.47,°C,Inactive,Yes,N/A
+1e43611c-ee2a-4c45-8a1d-1f6ecf7d3523,Francisco Pine,Traffic Flow,2024-01-03 22:57:36,34.0,vehicles/hour,Inactive,No,N/A
+7fc1a67e-94d6-44ee-a8fb-f5beced33186,Campbell Village,Energy Consumption,2024-01-30 08:43:46,19.42,kWh,Inactive,Yes,2024-06-23
+d89cf0d5-2b21-459d-ae44-04c92cc315ee,Monica Mill,Traffic Flow,2024-07-30 21:34:21,14.21,vehicles/hour,Inactive,No,N/A
+5b9c5964-35a6-43d7-adf3-30be1b0936ec,Kelly Gardens,Noise Level,2024-01-31 11:03:36,28.78,dB,Faulty,No,2024-08-23
+3860fbaf-5944-4911-9996-27719d378e3c,Maldonado Forges,Temperature,2024-03-05 16:43:40,75.6,°C,Active,No,2024-02-09
+71590b35-51d8-4cbe-903b-6eee8f4ddc46,William Rapids,Humidity,2024-03-17 17:11:57,60.08,%,Inactive,Yes,2024-07-09
+1f1fd774-c358-419a-baf6-6be24a49bbf1,Contreras Burg,Energy Consumption,2024-01-15 10:28:28,35.97,kWh,Faulty,No,N/A
+3d7d9c5b-38fd-44e4-b8aa-beebb944771a,Mark Points,Energy Consumption,2024-06-23 19:45:38,78.75,kWh,Faulty,No,N/A
+2e0f9308-efab-40ae-ac72-d9702ec9339a,Maria Lakes,Traffic Flow,2024-03-17 02:16:16,49.94,vehicles/hour,Active,No,N/A
+2e8f9f6e-5c4d-4b99-b832-0d73efdb2f46,Burnett Mall,Temperature,2024-01-19 02:02:08,37.82,°C,Inactive,No,2024-08-15
+e33803f4-adcc-4c74-8ddd-93e7946ca7c7,Davis Mountain,Noise Level,2024-08-16 20:40:45,32.93,dB,Active,No,N/A
+c5e22b37-67b4-46b3-adfa-a74496e58cb8,Jason Circle,Humidity,2024-03-23 21:32:58,53.08,%,Active,Yes,N/A
+7bafe0fe-ad1c-403d-8ee8-1e0579ff7367,Leslie Loop,Temperature,2024-06-06 19:56:22,16.68,°C,Faulty,Yes,N/A
+a04d2572-4486-4666-ab35-3306561d9dcd,Goodwin Shoal,Noise Level,2024-03-20 03:16:26,91.62,dB,Faulty,No,2024-04-01
+2154bc78-80fe-4afc-8e94-151f60324fca,Garrett Highway,Noise Level,2024-02-13 16:43:48,13.74,dB,Active,No,2024-08-16
+4bfde894-144b-4123-8b63-8e40224632b1,Brian Shoals,Humidity,2024-01-22 05:15:50,2.79,%,Inactive,No,N/A
+778af29d-f743-4b25-add5-45e1713a134c,Ronald Overpass,Air Quality,2024-07-25 13:47:30,51.99,µg/m³,Active,No,N/A
+b13cb597-c475-4940-be69-0c93ee8d2b73,Barrera Ranch,Humidity,2024-04-03 05:37:21,63.01,%,Faulty,No,N/A
+cc9e7c58-d020-4cbb-be41-d002ee2257a9,Daniel Parkways,Traffic Flow,2024-03-12 19:24:23,36.57,vehicles/hour,Active,Yes,2024-01-24
+a77825da-281f-40aa-a50b-2a31c6729b4b,Johnson Manor,Temperature,2024-05-18 23:41:54,43.04,°C,Inactive,No,N/A
+c5f68504-77b6-40bc-9c3d-df0fe4ccc464,James Village,Traffic Flow,2024-01-17 13:44:00,84.76,vehicles/hour,Inactive,Yes,N/A
+e1a60c5b-cfe1-4fec-8b17-987a88b27e11,Samantha Corners,Traffic Flow,2024-01-29 03:11:59,95.28,vehicles/hour,Faulty,Yes,2024-08-26
+f496cae8-8ec1-4954-bd3b-c8d456d8ddda,Kenneth Loop,Noise Level,2024-06-13 06:26:16,99.32,dB,Active,No,2024-06-11
+6841394f-34bb-45c9-876c-1f879e088fc2,Alicia Manor,Traffic Flow,2024-02-20 11:10:27,36.86,vehicles/hour,Active,Yes,N/A
+73b925b0-9acb-4581-882b-0bc9b0aa95c5,Stephanie Flat,Energy Consumption,2024-08-08 05:16:23,3.78,kWh,Active,Yes,N/A
+f5f5939c-0513-4c73-88e8-ef49cae84583,Joan Stravenue,Temperature,2024-08-13 22:28:56,11.43,°C,Active,No,N/A
+74783ee7-1498-4eeb-8f87-0340375d2e94,Perez Freeway,Traffic Flow,2024-03-17 23:29:23,62.18,vehicles/hour,Inactive,Yes,2024-05-31
+bfc16c9e-a9b6-4523-80fc-a91e58c9deaf,Estrada Coves,Energy Consumption,2024-01-30 00:13:21,92.09,kWh,Active,No,N/A
+b65345e7-5616-46c6-9929-1e0516c36f35,Rowe Neck,Temperature,2024-06-30 17:20:31,38.08,°C,Inactive,No,N/A
+91b07fcb-d54d-42ab-adf7-087241990138,Leah Shoal,Traffic Flow,2024-08-12 17:17:43,50.65,vehicles/hour,Faulty,No,2024-08-14
+fa4d652a-9973-4fb1-8e15-f9e478edbc70,Ramirez Centers,Energy Consumption,2024-03-07 23:43:40,15.68,kWh,Inactive,Yes,2024-02-04
+38b73f87-227d-414b-8faf-854b4ba080ce,Patel Pines,Traffic Flow,2024-07-25 13:31:10,43.13,vehicles/hour,Inactive,Yes,2024-07-24
+4ea92d2c-638e-4255-8d72-5e1b166da661,Cain Ways,Air Quality,2024-08-27 05:12:49,64.95,µg/m³,Faulty,Yes,N/A
+f3a9d1c8-bf48-436e-b753-0e0bbb42acfa,Wood Island,Energy Consumption,2024-08-23 00:09:44,76.99,kWh,Active,No,2024-02-04
+16d62abe-b835-4393-a718-e8abe412d836,Ortiz Garden,Temperature,2024-04-28 06:31:44,59.9,°C,Active,No,2024-04-11
+f02534c7-c1d2-4c12-86b5-c7ff8ecaf0d2,Michelle Walk,Noise Level,2024-02-05 03:15:01,53.12,dB,Active,Yes,2024-03-26
+dc7b5e87-cced-407c-9316-086e151231d1,Powers Mission,Traffic Flow,2024-07-06 14:59:03,30.55,vehicles/hour,Inactive,No,N/A
+af0a3e31-a4f9-4808-9fca-a29c7d5a452f,Patel Well,Traffic Flow,2024-03-13 04:41:31,29.82,vehicles/hour,Faulty,Yes,N/A
+b263583a-07dc-46de-89c4-256f49200180,Crystal Burgs,Energy Consumption,2024-06-30 21:40:12,29.09,kWh,Active,No,2024-03-08
+aafaaea4-1b86-4ab1-8a5a-bc38cfb2c5e9,Juan Station,Energy Consumption,2024-07-07 09:17:53,12.79,kWh,Inactive,No,N/A
+3a632122-7570-4e32-9a97-28e9f93b0f1b,Angela Overpass,Traffic Flow,2024-08-29 14:49:10,23.75,vehicles/hour,Inactive,Yes,2024-01-13
+47092319-5dae-41f0-97c4-5550ba638e48,George Oval,Energy Consumption,2024-07-25 00:12:18,70.11,kWh,Active,Yes,2024-02-09
+04651647-83f8-4c98-81f5-4dde78994543,Ashley Summit,Humidity,2024-04-29 11:29:35,3.08,%,Faulty,Yes,2024-02-25
+6ebda3fa-39dc-44f9-b752-2347a9fa9de1,Michael Route,Noise Level,2024-01-23 07:26:56,80.92,dB,Inactive,Yes,N/A
+3e7a714b-0c20-4497-9bc1-268a1c792be6,Mark Streets,Air Quality,2024-04-09 22:32:08,3.83,µg/m³,Faulty,No,2024-08-20
+d524abdf-ca59-4170-98f6-e07e895617ef,Long Ford,Energy Consumption,2024-05-11 00:52:58,49.58,kWh,Faulty,Yes,2024-06-10
+6f89a24b-ffee-4b34-ad30-a80337b598f2,Ball Cliffs,Temperature,2024-03-03 11:08:14,59.98,°C,Active,No,N/A
+460bd526-38cb-4268-874f-1ddd6b22ae9f,Blackburn Valleys,Temperature,2024-08-11 19:21:24,61.93,°C,Inactive,Yes,2024-05-27
+490687f9-2820-4cf2-ad9a-e7d37331c936,Jones Brooks,Temperature,2024-08-09 07:24:58,90.38,°C,Inactive,Yes,N/A
+df78c34c-0bdf-4459-805a-3660cb4637d7,Tran Ranch,Temperature,2024-05-29 07:08:15,9.19,°C,Inactive,Yes,2024-01-28
+51ca2a4f-24a6-4059-9563-a964d0a00210,Maria Groves,Energy Consumption,2024-06-14 00:53:38,78.16,kWh,Faulty,Yes,2024-06-21
+70d93c95-70af-4513-95a3-06f2d8957baf,Stanley Plaza,Energy Consumption,2024-04-05 20:08:23,2.74,kWh,Active,Yes,2024-01-10
+23659cf8-dc87-4456-9edb-00c4142e909d,Collins Plains,Energy Consumption,2024-01-29 13:40:47,54.52,kWh,Active,No,2024-03-02
+6ea7e5bb-509d-4d7b-bafe-1a19fc4fc669,Brown Cliff,Energy Consumption,2024-08-14 08:32:03,58.12,kWh,Inactive,Yes,2024-06-27
+237d88b0-aa25-43d2-b6f4-1736eeea8d39,Turner Ramp,Temperature,2024-01-03 15:14:58,5.87,°C,Inactive,No,N/A
+150b5a91-475f-4786-8cd6-4bfc02891540,Warner Points,Air Quality,2024-03-17 21:51:17,66.03,µg/m³,Inactive,Yes,2024-04-08
+0654d3c2-e029-4995-b264-652e347ec1e6,Jeffery Underpass,Humidity,2024-03-17 14:09:46,24.27,%,Inactive,No,2024-03-11
+e5c28336-27dd-4c5a-ad0d-a12a051f3448,Kayla Village,Noise Level,2024-01-17 03:30:24,39.88,dB,Faulty,No,N/A
+c27786e4-e2d6-4cc8-80c5-c17276f59fec,Harrison Heights,Humidity,2024-08-07 09:06:32,97.23,%,Active,Yes,N/A
+6204dfda-1cc3-4298-bc32-62d8f88c360e,Christine Plaza,Traffic Flow,2024-04-08 10:21:06,26.76,vehicles/hour,Inactive,Yes,N/A
+0219d30f-8a3d-46be-a24b-35b90ec58073,Richards Greens,Humidity,2024-04-02 22:23:35,68.16,%,Inactive,No,2024-05-20
+365b6c5d-2c01-44ae-aa12-f4b0a8da89b6,Alan Islands,Temperature,2024-05-01 01:34:25,6.74,°C,Active,No,2024-02-29
+32b29245-d35b-4acf-a191-d788c801b361,Amanda Street,Noise Level,2024-08-12 22:15:09,66.28,dB,Faulty,No,2024-05-25
+76936287-df75-4571-b4e3-f3ea08075113,Miller Cove,Energy Consumption,2024-03-04 13:15:38,91.63,kWh,Active,Yes,N/A
+508f5b10-3dcf-4f60-ba8d-41b9bc5b24d5,Patrick Loaf,Humidity,2024-05-28 12:05:26,92.34,%,Inactive,No,2024-03-16
+3b01f872-d7fb-422a-a050-9d9bb6bc9dbf,Megan Curve,Noise Level,2024-07-30 19:27:44,64.83,dB,Inactive,No,N/A
+30cd4f68-e180-4c01-a924-8d24933d9339,Timothy Islands,Temperature,2024-02-02 11:26:20,43.87,°C,Active,No,N/A
+a341d073-4617-463d-bcc4-c50c2c283933,Beth Stravenue,Traffic Flow,2024-03-15 22:35:03,10.04,vehicles/hour,Active,No,N/A
+445ece8f-080e-4428-a0ad-0d372adb21c4,Wagner Trail,Traffic Flow,2024-01-10 10:07:33,46.32,vehicles/hour,Faulty,No,N/A
+d7c6c9f2-a604-41e5-807f-ab4e518d0716,Ashley Turnpike,Traffic Flow,2024-05-24 03:02:15,62.95,vehicles/hour,Inactive,Yes,N/A
+c66c3ee2-0a62-40a6-995f-641814db1e84,Mcintyre Square,Temperature,2024-04-23 06:07:19,29.79,°C,Active,Yes,N/A
+a8ccffe5-cdd8-4454-85e9-ceaf9b5c813d,Kevin Rapid,Energy Consumption,2024-04-14 15:20:34,97.59,kWh,Inactive,No,N/A
+8188bdd4-161f-4ecb-9819-1f1436069093,Melanie Junction,Traffic Flow,2024-02-26 04:20:14,47.89,vehicles/hour,Faulty,No,N/A
+dbd2a22b-8cf0-4d04-a183-69d4c43e3062,Patricia Mountain,Traffic Flow,2024-01-16 23:30:11,49.98,vehicles/hour,Inactive,Yes,N/A
+80e3b082-8a28-47ba-a7bb-cf1e22f75e2e,Tommy Unions,Noise Level,2024-01-29 13:06:15,33.34,dB,Active,Yes,2024-06-19
+62ae4ffc-9722-43c7-9ee8-8fd4dbe8d54e,Mcmillan Freeway,Energy Consumption,2024-07-01 07:45:54,24.07,kWh,Active,No,N/A
+09b789b1-9a5d-465c-986a-90ec02e25ae9,Garcia Neck,Energy Consumption,2024-07-08 16:46:25,62.12,kWh,Inactive,No,N/A
+53cd4377-31e9-40ab-9db5-dc41f65fc245,Davis Lock,Air Quality,2024-01-23 03:37:56,72.09,µg/m³,Inactive,Yes,2024-03-20
+e5060c29-34ed-4e05-b79c-6f19631e2a79,Beck River,Traffic Flow,2024-03-26 00:50:19,69.06,vehicles/hour,Inactive,No,N/A
+2d057cca-beca-47c3-8c47-2f35c4f9d5d8,Decker Run,Temperature,2024-04-02 00:33:18,84.23,°C,Active,No,N/A
+4b685873-1a09-4ff7-ad31-1ecf0bcc07da,Tyler Port,Humidity,2024-02-01 12:08:51,39.5,%,Faulty,Yes,2024-03-11
+a7ec5e03-e0ab-4360-a7af-f8d76af45409,Martin Trace,Air Quality,2024-08-21 17:05:40,5.87,µg/m³,Active,No,2024-02-21
+f3e9415f-520b-4377-a7da-fb2296b78dc4,Ortiz Lights,Temperature,2024-07-07 13:35:38,4.89,°C,Faulty,Yes,2024-04-26
+f0128315-97e1-4de3-94e3-2826acb28c47,Thompson Heights,Traffic Flow,2024-04-17 14:42:12,61.61,vehicles/hour,Active,No,N/A
+4702cfa9-946d-4bc9-a531-81a58027d3a9,Johnston Forest,Temperature,2024-05-20 10:53:07,60.46,°C,Inactive,Yes,2024-03-20
+5270cc6f-2756-4b0d-9498-7b3a2d85e93f,Kathy Plaza,Air Quality,2024-04-20 00:53:07,89.67,µg/m³,Faulty,Yes,N/A
+c029cf64-33f7-4367-a535-dae342550be2,Leon Light,Traffic Flow,2024-03-20 17:46:49,96.57,vehicles/hour,Active,No,N/A
+80cc997e-8c57-4c31-b73c-b608dda7d94f,Andres Mountain,Traffic Flow,2024-01-13 05:53:13,39.67,vehicles/hour,Inactive,Yes,2024-04-08
+afb3a6e9-b4a7-44d5-b0eb-9003da754829,Gregory Viaduct,Energy Consumption,2024-01-14 14:49:51,17.59,kWh,Inactive,No,N/A
+39483e28-111f-4ee6-bc94-0b3eaef0bba1,Roth Camp,Noise Level,2024-04-06 18:10:22,59.53,dB,Inactive,No,N/A
+c954a440-af58-4429-a2dc-c7ca3c128130,Anthony Mission,Noise Level,2024-07-14 15:36:10,78.6,dB,Inactive,No,2024-01-09
+40510a98-095d-43e8-b79e-53358801222a,Maureen Garden,Air Quality,2024-06-21 16:59:16,23.13,µg/m³,Inactive,Yes,2024-05-15
+4ca6b108-3688-4b9f-b10a-43327e107cbc,Gary Flat,Temperature,2024-04-15 07:59:43,28.0,°C,Inactive,No,N/A
+f9057079-66c5-46f6-bac9-fa807d8509cc,Olson Vista,Humidity,2024-05-19 04:09:44,2.23,%,Inactive,No,N/A
+b0c4d2ff-d2ab-47b1-9967-6a14e59774fc,Thomas Row,Traffic Flow,2024-07-31 12:17:31,85.53,vehicles/hour,Faulty,No,2024-03-05
+18a0c2bb-b8e8-4754-8989-0192580f7abc,Olson Via,Noise Level,2024-04-29 13:01:17,81.78,dB,Active,No,N/A
+6cc92590-6c02-48a4-bcf5-81685d130e68,Jacob Mill,Noise Level,2024-07-03 17:52:27,26.34,dB,Inactive,No,2024-01-30
+c8a94ebc-c651-404d-b7c0-e460787f1905,William Gateway,Temperature,2024-03-08 02:11:07,87.7,°C,Inactive,Yes,2024-02-01
+d48fba36-b682-47f1-aa0a-6948931d4622,Crystal Pines,Air Quality,2024-04-27 13:37:34,28.49,µg/m³,Active,Yes,N/A
+10c7fe04-03be-40fb-bf5e-4c107fbd7061,Mcintyre Dale,Humidity,2024-08-01 15:13:55,98.99,%,Active,Yes,N/A
+9c665676-c374-4c1e-ae32-05e4b69a915d,Kristin Valleys,Air Quality,2024-01-28 04:35:47,33.88,µg/m³,Active,Yes,N/A
+b0a682ed-9e1e-40fc-8cd6-0663a35639f7,Sarah Stravenue,Traffic Flow,2024-03-05 22:35:14,47.6,vehicles/hour,Inactive,Yes,N/A
+bf1d5c2b-308f-47dc-bf0a-0e48ff8edd0d,Tina Street,Air Quality,2024-01-10 01:51:45,35.0,µg/m³,Faulty,No,2024-04-17
+8828b909-1d83-4be9-bb30-fdd4f56d00dd,Smith Inlet,Traffic Flow,2024-03-24 15:56:33,85.9,vehicles/hour,Faulty,No,2024-07-14
+b655775e-c3a1-40ff-9bcc-b9acf5fb832c,Hayes Manor,Noise Level,2024-07-11 19:15:15,75.16,dB,Faulty,No,N/A
+07ac0058-9ef0-4a26-8ef2-2d75549fff81,Singh Roads,Temperature,2024-06-14 09:22:10,70.1,°C,Faulty,Yes,2024-06-09
+c11a7c5f-e7a2-4a32-a621-d299a70f1cb2,Joseph Stravenue,Humidity,2024-03-29 16:26:40,29.25,%,Active,Yes,N/A
+a99e8e95-51d9-42fa-a4cc-111e1ab71240,Phillips Ports,Noise Level,2024-04-26 11:41:11,22.11,dB,Faulty,No,2024-07-23
+eebd62b9-dae2-4c39-b039-f4b9789e5746,Adams Springs,Air Quality,2024-04-11 22:00:16,54.58,µg/m³,Inactive,No,N/A
+95b6cfa3-601e-4c9b-be82-e1303e50cc48,Randy Row,Humidity,2024-03-06 04:08:57,49.13,%,Faulty,Yes,N/A
+5f739ed9-7649-4d17-82fb-06cd8e34088b,Christina Forest,Energy Consumption,2024-01-11 01:28:47,22.9,kWh,Active,Yes,2024-06-26
+8ebdf881-306a-4778-8754-ffcac9301e9c,Gary Mills,Air Quality,2024-07-12 15:09:20,74.22,µg/m³,Inactive,No,N/A
+edbd78d9-aba9-4a53-89c9-0f60cb7ea50e,Johnson Locks,Noise Level,2024-04-20 19:16:57,51.99,dB,Active,No,N/A
+b27e1508-a94a-473d-b20d-d507c4b2f430,Frank Mews,Traffic Flow,2024-07-04 15:40:29,41.78,vehicles/hour,Inactive,No,N/A
+d1ce4adc-76ed-4bc8-8e6b-3e3ed245c88d,Curtis Plains,Energy Consumption,2024-03-28 12:45:04,11.53,kWh,Active,Yes,N/A
+237539cf-f92b-4b35-8222-b982407fc7b6,Johnson Track,Energy Consumption,2024-07-10 13:17:08,7.63,kWh,Active,Yes,2024-05-04
+b19d6645-8150-4ac9-90c4-f226c6f3be7f,Tyler Harbors,Temperature,2024-07-18 18:43:11,27.45,°C,Inactive,Yes,N/A
+e5ecf77f-5870-44cb-ba79-b5bc4bb8ad5d,Derrick Hollow,Temperature,2024-07-21 19:29:29,42.01,°C,Active,Yes,N/A
+6028faa6-2292-4ea7-a080-ce83d0ae0b12,Estrada Coves,Energy Consumption,2024-02-03 17:20:28,28.39,kWh,Inactive,No,N/A
+ae889dd8-aea3-4931-9104-9d4c794f78a7,Rhonda Springs,Traffic Flow,2024-02-05 07:49:50,36.51,vehicles/hour,Inactive,Yes,N/A
+fb086a0c-854f-4754-a54e-cbbb094b5715,Stone Street,Temperature,2024-01-09 07:00:40,61.92,°C,Faulty,Yes,N/A
+2ba0c6cb-b621-4d3d-a729-1de514e76524,Garcia Harbors,Noise Level,2024-07-27 18:04:41,62.04,dB,Active,Yes,2024-08-18
+72db347b-52b4-49c7-8168-41e51c70da2f,Morgan Radial,Temperature,2024-02-23 20:47:26,78.92,°C,Faulty,Yes,2024-08-12
+12593d08-1aa7-45a4-ad48-a25116589044,Jaime Roads,Temperature,2024-03-08 16:39:07,71.07,°C,Inactive,No,2024-05-18
+3e7e0768-1978-4aae-9564-b018bd01159d,Denise Lane,Temperature,2024-05-30 22:59:49,54.17,°C,Active,Yes,N/A
+046243df-8769-4c4c-bce2-ec2ba50cfc24,Morales Rue,Traffic Flow,2024-03-31 15:09:44,42.79,vehicles/hour,Active,Yes,N/A
+5fabdfe5-a3da-42ee-8678-a09e08b10529,Mary Orchard,Temperature,2024-08-17 21:17:07,43.57,°C,Inactive,Yes,2024-07-08
+5b54c972-7443-44a2-90a3-6de4385e2ad0,Strickland Trail,Air Quality,2024-06-26 07:05:25,68.14,µg/m³,Faulty,No,N/A
+ab58e5d5-064e-4816-aafb-2c803ea0d105,Marco Trail,Noise Level,2024-06-04 09:06:05,51.96,dB,Active,Yes,N/A
+660b9048-9484-4bb0-9070-dce35a0ef8df,Hicks Tunnel,Noise Level,2024-02-04 15:55:16,14.91,dB,Active,Yes,N/A
+2af3f634-1fea-444f-a360-09756b2250e9,Ashley Manors,Energy Consumption,2024-03-07 12:23:26,51.86,kWh,Faulty,Yes,2024-05-14
+e89589d6-4dd8-495d-8330-b62668bcdfad,Perez Wells,Air Quality,2024-03-30 18:17:31,18.34,µg/m³,Faulty,No,N/A
+62c03e41-a1b9-40ae-863f-f79e0b7a331f,Melissa Streets,Energy Consumption,2024-02-20 06:48:44,84.97,kWh,Inactive,Yes,N/A
+10ce47f3-1006-46ad-8def-b7e0190f2cae,David Trail,Air Quality,2024-03-22 10:41:19,34.72,µg/m³,Inactive,Yes,N/A
+4cfb9fbf-e29d-456f-bb1c-2101197e3474,Allen Falls,Temperature,2024-03-24 08:28:40,58.7,°C,Active,No,N/A
+e84e0421-f775-4684-87e6-c4d927383b85,Yolanda Meadows,Temperature,2024-07-25 15:08:02,1.06,°C,Faulty,Yes,2024-08-27
+ce7cb93d-d1b6-44a8-86b6-729e1f190bd4,Love Point,Air Quality,2024-02-11 00:42:08,73.08,µg/m³,Faulty,No,2024-01-21
+95f1ae30-edd9-4746-9114-8b2262a6ff02,Chan Park,Temperature,2024-08-21 03:22:54,15.85,°C,Inactive,Yes,2024-03-30
+c35af780-bb33-487c-b723-672077147c0f,Alexandria Street,Temperature,2024-07-14 20:19:21,98.73,°C,Inactive,Yes,N/A
+e5a46c8b-b332-4001-b651-8b1f3387f8ba,Garcia Walk,Traffic Flow,2024-06-10 04:54:09,78.07,vehicles/hour,Faulty,No,N/A
+cee11a47-51ab-4564-8c44-1f288109b832,Miller Mountain,Temperature,2024-06-06 22:48:53,4.95,°C,Faulty,Yes,2024-01-07
+e58a0ccd-cdf4-4295-b7be-62771103fdd9,Mackenzie Mills,Air Quality,2024-05-27 00:12:06,11.34,µg/m³,Inactive,No,N/A
+c1f5adb5-3744-4f82-adc8-eda77df462be,Greer Points,Noise Level,2024-01-18 06:45:59,22.16,dB,Faulty,No,N/A
+fc643219-4210-4eaa-bf49-2a4d97191570,Anthony Fords,Humidity,2024-06-08 10:55:12,51.76,%,Inactive,No,2024-08-25
+1eb7fbc7-d3ef-403a-95cd-8970fb768191,Kristen Mill,Humidity,2024-01-08 13:48:23,15.95,%,Inactive,Yes,2024-04-10
+e3986c22-2c4b-4766-9911-1fc4f11467d1,Jorge Stravenue,Noise Level,2024-05-17 11:54:07,75.91,dB,Faulty,Yes,2024-08-24
+87c8c262-9dd1-40a9-820f-41a582e58b42,Shepard Highway,Humidity,2024-07-22 14:19:41,53.95,%,Faulty,Yes,N/A
+4ab13b3a-6bce-4f29-8376-e3c02ac4830d,Jeremiah Pass,Noise Level,2024-02-24 03:25:49,42.44,dB,Inactive,Yes,N/A
+d61b2daf-f22b-4a2e-833e-d96f0e461743,Devin Glens,Traffic Flow,2024-02-19 02:04:36,47.8,vehicles/hour,Inactive,No,N/A
+d35980fb-cd9e-4cd1-8ce9-f9e7a4b02462,Jeremy Plains,Temperature,2024-02-02 10:42:33,1.99,°C,Inactive,Yes,2024-03-24
+59c37358-2e8d-44d6-9555-55f5c5b6f47f,Patricia Locks,Traffic Flow,2024-05-15 12:32:29,9.73,vehicles/hour,Active,No,N/A
+41006568-15f8-44b6-9807-b0a87c7a3db0,Michael Oval,Air Quality,2024-03-02 10:38:40,10.05,µg/m³,Inactive,No,2024-07-26
+12ba0ac6-ff0a-42ca-b7ad-8bde2ea4ec36,Samuel Ridge,Noise Level,2024-07-07 05:59:11,72.92,dB,Active,Yes,2024-02-06
+2a6acaa2-b280-4764-b5c1-567352b9efde,Morales Light,Humidity,2024-02-22 05:14:21,71.05,%,Active,Yes,N/A
+f8c5f4bb-57be-49a1-9152-ad9bae1853c4,Frank Rue,Humidity,2024-04-16 02:14:23,46.13,%,Active,Yes,N/A
+d7504443-18fe-4d3a-929b-66ab75e32eb3,Davis Court,Air Quality,2024-08-20 15:26:23,69.87,µg/m³,Active,No,2024-06-29
+caad98d8-98aa-4e4d-9094-28fdc47cc7a7,Williams Glens,Humidity,2024-08-19 17:48:25,78.0,%,Faulty,Yes,N/A
+0989f28c-33e1-495d-b9c0-83fd02bcec6f,Ross Forest,Humidity,2024-01-16 11:24:12,31.65,%,Faulty,No,N/A
+b3ecfcec-5e9c-47cc-b8e5-15d1f7489f93,Stevens Flats,Temperature,2024-01-21 23:14:39,73.45,°C,Active,No,2024-04-17
+0c86061a-a64a-43bd-af0f-0d93d87c53ba,Rodriguez Mountain,Energy Consumption,2024-04-15 04:54:01,22.05,kWh,Faulty,No,N/A
+c639c3ac-a515-4722-ad60-6a687a171c84,Sherman Road,Air Quality,2024-01-11 23:06:54,40.81,µg/m³,Inactive,No,N/A
+604d1bd5-98d0-4344-81cd-85877b160448,Thompson Parkways,Noise Level,2024-01-05 23:21:37,13.84,dB,Inactive,No,N/A
+2c9bc5cb-fc21-4410-8b6e-d1dc08faaf69,Davis Forges,Noise Level,2024-04-02 13:19:33,36.03,dB,Faulty,No,2024-07-18
+73988ad3-6613-4e26-94b4-d0a64980e4cd,Nguyen Isle,Air Quality,2024-07-25 14:49:11,75.24,µg/m³,Active,No,N/A
+5acb6551-8aaa-4eb7-89da-c1ffbdb2c41e,May Extension,Noise Level,2024-07-04 07:57:42,64.86,dB,Faulty,Yes,2024-03-05
+8ec8c054-e380-45ed-9d31-4df4f86e05a1,Roman Streets,Noise Level,2024-06-17 18:50:30,79.04,dB,Inactive,No,2024-06-01
+bfda73f0-4452-46cf-8278-98ba57c1f59c,Walton Roads,Traffic Flow,2024-04-28 11:06:55,93.07,vehicles/hour,Faulty,Yes,2024-03-21
+7fad4484-5a8c-408c-a76e-1d7c17941fb9,Scott Lakes,Temperature,2024-04-10 16:02:55,98.73,°C,Inactive,No,N/A
+82875ce4-150d-4b82-9e34-1304abb9fae8,Jason Circles,Traffic Flow,2024-06-19 01:18:43,53.67,vehicles/hour,Faulty,Yes,N/A
+3de46866-755c-4797-a5f1-8d458015d3c9,Graham Hollow,Noise Level,2024-07-21 17:07:37,41.3,dB,Inactive,Yes,2024-01-27
+8e9047df-e456-4cb3-9804-fd0a25a65f5d,Benjamin Glen,Temperature,2024-03-11 18:42:39,99.03,°C,Active,No,2024-08-01
+1b2ddf25-1b80-4e13-99bd-e3b637672084,Melissa Mall,Noise Level,2024-06-06 22:20:30,48.72,dB,Active,Yes,N/A
+11f3aa24-e15a-4a59-b474-cbde05ef08c2,Ballard Pine,Traffic Flow,2024-07-30 03:37:37,88.1,vehicles/hour,Faulty,Yes,N/A
+72d65a60-97cc-48a0-a20f-f89a0bbce502,James Falls,Traffic Flow,2024-07-05 18:54:44,43.61,vehicles/hour,Inactive,Yes,N/A
+00d5b92e-567f-4a0d-9713-7bce48f6b317,Ortega Alley,Energy Consumption,2024-06-24 13:35:13,81.66,kWh,Active,Yes,2024-03-11
+3cc0388b-6a48-40e2-aaee-5b7d0d253b9b,Jones Port,Temperature,2024-06-04 12:31:12,4.65,°C,Faulty,Yes,2024-05-18
+3cd4578a-3192-4f77-8242-791ef3e794b4,Black Curve,Noise Level,2024-03-13 16:40:14,4.55,dB,Active,No,N/A
+be0b3495-d3b3-4f52-a081-5d7109d3dd94,Young Glens,Noise Level,2024-05-14 16:27:12,4.75,dB,Inactive,No,N/A
+65a77458-31fc-4204-97ac-d18b32d94581,Murphy Track,Noise Level,2024-02-29 18:41:16,52.23,dB,Inactive,No,2024-02-03
+e2726cec-ae0d-4e43-bd32-0473b37613dd,Michael Crest,Traffic Flow,2024-04-08 09:11:56,41.11,vehicles/hour,Inactive,No,N/A
+61870e8a-ff7e-4f3d-b87d-f2c8de9d1d1c,Stephanie Ferry,Air Quality,2024-05-29 23:23:11,23.78,µg/m³,Inactive,No,2024-03-02
+b24ddf96-b735-4831-9505-094e70474c0f,Michael Path,Traffic Flow,2024-05-16 16:23:36,93.7,vehicles/hour,Active,No,2024-05-12
+0de68e7c-896b-4dc6-b44a-5130babe01b3,Potter Drive,Temperature,2024-08-29 02:48:09,2.21,°C,Inactive,No,2024-05-11
+391f48fa-8416-4faf-b7a7-296f08ed6cba,Jennifer Viaduct,Temperature,2024-01-05 01:49:16,52.34,°C,Inactive,Yes,2024-01-04
+4ef41883-ccec-430e-ab76-a59f23a70097,Kathryn Plaza,Energy Consumption,2024-07-08 11:29:35,4.96,kWh,Faulty,No,2024-06-18
+1e2ee943-e033-4dab-9bef-c2495b16cb1a,Sullivan Isle,Traffic Flow,2024-01-21 04:53:49,86.75,vehicles/hour,Faulty,No,2024-05-30
+a3a15a7e-5f26-484c-a6a5-f2c87d9f5387,Maddox Locks,Traffic Flow,2024-01-16 07:53:48,66.17,vehicles/hour,Active,No,N/A
+509a8b43-aee1-4a51-a841-38b5c85b3512,Allison Crossroad,Traffic Flow,2024-03-26 01:58:03,13.52,vehicles/hour,Active,Yes,2024-05-21
+928a4eed-0470-4566-a062-026f49b56132,Morris Cape,Air Quality,2024-01-27 13:48:25,24.68,µg/m³,Inactive,No,2024-07-25
+086c6b52-cfec-4fe8-b764-16defe653b66,Rush Lake,Traffic Flow,2024-03-02 05:49:08,19.4,vehicles/hour,Inactive,Yes,N/A
+88658b7b-f077-433b-8bb8-6425aad989c5,Olson Streets,Temperature,2024-05-10 22:58:38,7.62,°C,Inactive,Yes,N/A
+b2d4e50d-7c56-4309-94a0-95a06cc058ba,Walls Light,Humidity,2024-02-10 03:20:05,32.85,%,Active,No,2024-04-30
+31b25e41-8d1d-4b86-8d90-27f746e0a8d9,Simon Row,Air Quality,2024-06-09 03:35:30,47.65,µg/m³,Inactive,No,N/A
+740bec88-0be5-460f-a576-f03500396dfe,Carly Row,Traffic Flow,2024-03-26 07:05:42,48.37,vehicles/hour,Active,No,N/A
+63a79cfb-776d-4f64-88d7-339fe8e97437,Morton Island,Temperature,2024-08-22 06:37:06,81.57,°C,Faulty,Yes,N/A
+1eb5467f-1d6b-4131-a8a5-c3491f4ec72a,Jamie Oval,Humidity,2024-03-01 02:48:39,61.14,%,Faulty,No,2024-04-21
+061967f5-2e32-4b00-9fa9-55ee7e12e8cb,Tate Gateway,Noise Level,2024-08-18 20:32:09,54.44,dB,Inactive,No,N/A
+a1590b92-33a3-4960-8da3-307ae57ccfa5,Wolfe Pine,Traffic Flow,2024-01-09 09:04:57,23.01,vehicles/hour,Faulty,Yes,2024-05-15
+b21c232b-39f1-4339-ae00-8690a920d99b,Cindy Port,Air Quality,2024-06-18 12:37:04,85.79,µg/m³,Active,Yes,2024-01-03
+34a26e76-8c1d-4cec-bb32-300e77e50eb1,Noble Forest,Air Quality,2024-05-20 16:07:30,2.49,µg/m³,Inactive,No,2024-08-28
+e027c5fb-ba6e-4bbd-9a03-447afe7bf708,Thompson Estates,Humidity,2024-07-09 04:16:50,13.66,%,Faulty,Yes,N/A
+6baeca65-8b9e-4c64-87d4-def5364efe90,Rodgers Brooks,Air Quality,2024-02-04 12:26:12,47.73,µg/m³,Active,Yes,2024-01-25
+ba8ae4b0-043e-42fa-bb70-d6c467e9b9c5,Lisa Flats,Energy Consumption,2024-03-29 11:10:22,31.92,kWh,Faulty,Yes,N/A
+ebff44b1-5e38-4ada-8c48-f7be7b435af6,Gilbert Corner,Traffic Flow,2024-08-08 07:39:42,66.33,vehicles/hour,Active,Yes,2024-06-10
+73d442ad-cd00-4011-b3ab-6a0160c1e1b9,Erin Plain,Noise Level,2024-01-27 21:08:30,9.18,dB,Inactive,No,N/A
+6a48a02e-26f7-4849-9473-e84fadd4d038,Sergio Islands,Traffic Flow,2024-01-03 19:58:27,73.94,vehicles/hour,Active,No,N/A
+d161a67c-8a35-4b3b-b15c-3d5c5d605f3b,Lyons Course,Traffic Flow,2024-01-22 05:51:07,33.52,vehicles/hour,Inactive,No,N/A
+02977e23-fcff-456b-8331-0681928c01cd,Allen Isle,Traffic Flow,2024-04-11 16:18:28,47.45,vehicles/hour,Active,Yes,2024-08-21
+515f983a-6f98-4104-9c5b-bb89b5df949e,Marshall Pines,Temperature,2024-07-27 15:32:54,84.83,°C,Active,Yes,2024-07-13
+dddf7811-6764-468b-825b-385e59cc1292,Mosley Valleys,Air Quality,2024-03-30 19:42:18,27.15,µg/m³,Active,Yes,2024-02-18
+c414209f-83c9-4a60-b2e4-3eb270ff9e28,Misty Flat,Energy Consumption,2024-02-10 07:22:42,79.42,kWh,Inactive,Yes,2024-05-21
+d2b54d27-0c54-448a-8ca7-e8d7d7d7dd65,Bennett Parks,Temperature,2024-06-30 18:03:50,74.22,°C,Active,No,N/A
+55bacb84-2fc9-4bc3-83ff-6d2799902ee5,Angela Light,Noise Level,2024-07-08 08:58:34,45.21,dB,Active,Yes,N/A
+ab251efe-82be-4c2a-afa1-e64bbc142f80,Gilmore Ports,Air Quality,2024-02-22 07:38:14,24.86,µg/m³,Faulty,No,N/A
+cbc74761-2d7e-48b1-ad46-719c3a4c707b,Destiny Curve,Temperature,2024-03-29 18:40:46,70.14,°C,Faulty,Yes,2024-04-12
+465d4c14-b2fd-45e8-b3dc-ce24a25bb28c,Joshua Greens,Traffic Flow,2024-02-15 08:05:16,26.55,vehicles/hour,Active,No,N/A
+01ea87b6-0a92-47f9-a006-5ff60267b8f1,Bernard Green,Air Quality,2024-02-01 03:25:16,37.43,µg/m³,Inactive,Yes,N/A
+a4548c81-c8dc-49f6-a337-82feb17290e3,Warren Pines,Traffic Flow,2024-07-06 05:07:25,65.99,vehicles/hour,Active,Yes,N/A
+859d5106-3619-4e7a-b4ec-d9d3a7211fa2,Cook Wall,Temperature,2024-03-01 02:23:50,20.07,°C,Inactive,No,2024-08-11
+037e0a32-9a4f-4bb8-bc87-d53ec70983df,Rodriguez Squares,Humidity,2024-06-10 05:04:13,26.55,%,Faulty,No,2024-06-07
+0f2c70d3-7e88-4519-b2fb-a2080367873d,Joseph Pines,Temperature,2024-07-14 16:38:50,87.17,°C,Inactive,No,2024-01-13
+bffd057e-d165-4392-a4a4-68aeb1541109,Ray Fall,Humidity,2024-04-18 00:11:55,94.43,%,Active,Yes,2024-02-07
+81103b8d-db2a-4597-9e54-ad4ba266d45a,Derek River,Traffic Flow,2024-03-23 20:58:41,9.89,vehicles/hour,Inactive,Yes,2024-03-11
+6fbc2cd0-9361-42bb-804e-61719d651087,Kent Rest,Traffic Flow,2024-07-14 09:17:48,50.76,vehicles/hour,Inactive,Yes,2024-01-12
+a04b2fa1-e7cb-4c4a-9d97-f14809356edc,Ryan Ferry,Humidity,2024-03-16 05:36:20,83.48,%,Faulty,No,N/A
+7ff414f5-5e98-4e7a-9621-717c454337bb,Pam Mountains,Noise Level,2024-01-16 12:05:12,85.72,dB,Inactive,No,2024-03-15
+d41d2f2a-228b-47cd-bf56-79e3ab393300,Bailey Haven,Noise Level,2024-03-26 18:19:35,15.63,dB,Faulty,No,2024-03-28
+87258806-4ed8-404d-960d-644cbbdb52de,Johnson Branch,Air Quality,2024-03-14 00:38:54,47.79,µg/m³,Active,Yes,N/A
+34d04571-8e48-4bad-9f30-ba04e240413d,Ian Lodge,Humidity,2024-08-07 14:07:36,77.19,%,Faulty,No,N/A
+9807cfb0-bdb9-495e-a5cd-372dc7f2a7cd,Timothy Common,Traffic Flow,2024-08-10 16:34:18,27.72,vehicles/hour,Faulty,No,N/A
+1b26638e-c416-4230-86cf-0d3c275d4f84,Joseph Valleys,Energy Consumption,2024-08-19 22:24:20,50.1,kWh,Inactive,Yes,2024-05-13
+0a459887-cb4c-4fa2-ad2d-6c4671337206,Mitchell Pike,Temperature,2024-01-26 16:40:45,51.72,°C,Inactive,Yes,2024-06-16
+4fe9ffcc-3d06-4b83-870c-73d7db5a88be,Dalton Summit,Air Quality,2024-01-10 16:12:00,53.05,µg/m³,Active,No,2024-02-01
+30f33e00-a510-44e4-b620-9e0d337cec24,Pamela Island,Humidity,2024-08-21 02:21:34,50.05,%,Active,No,N/A
+86324502-8fef-4401-a4d0-c3c6d8c80d30,Ian Point,Air Quality,2024-04-26 21:10:54,97.64,µg/m³,Inactive,Yes,N/A
+74936554-3998-489f-97a5-2b1228c555a1,Dixon Island,Energy Consumption,2024-05-02 16:21:00,17.61,kWh,Inactive,No,2024-05-07
+adbd912e-5661-40d3-bd7b-026da7ff2cb0,Dylan Lodge,Temperature,2024-04-26 02:14:02,9.93,°C,Inactive,Yes,2024-04-08
+1c4a0422-d631-4abd-a774-ee0d8415d24b,Monica Junction,Traffic Flow,2024-05-19 10:38:24,13.94,vehicles/hour,Active,No,N/A
+bdae3352-6676-4c5d-bf8c-5e945fb870a1,Kenneth Grove,Temperature,2024-02-27 08:44:45,93.05,°C,Active,No,N/A
+c22e9f68-e48b-40c4-9256-f0773e3d553b,Cooper Union,Air Quality,2024-06-16 17:20:30,45.83,µg/m³,Faulty,No,N/A
+2fdbf0b9-2b14-42eb-be77-ca2f03b6ab24,Henry Walks,Humidity,2024-02-09 22:54:53,10.28,%,Faulty,Yes,N/A
+814f9d82-d1f5-47da-b2ea-d6ae397f0bac,Hunter Trafficway,Traffic Flow,2024-08-14 06:56:50,62.76,vehicles/hour,Faulty,No,N/A
+88d87309-5e61-4ea1-b511-22a3a89a208a,Jones Locks,Air Quality,2024-07-24 03:07:48,22.13,µg/m³,Active,Yes,2024-02-15
+f1c93009-c95c-43a9-bc73-7fbea86748ab,Stephen Walk,Air Quality,2024-08-23 04:19:21,29.74,µg/m³,Inactive,No,N/A
+3283059c-5d69-42ee-9c73-0c84ae5f0a1f,Garcia Extensions,Noise Level,2024-07-11 22:43:36,91.09,dB,Active,Yes,N/A
+94e8789f-75c2-4000-bce4-62684d2bdba9,Rogers Valleys,Air Quality,2024-01-24 17:28:19,92.83,µg/m³,Active,Yes,2024-04-20
+7f01e28a-15f0-4d6a-a855-3586c0545efd,Leonard Plains,Air Quality,2024-07-10 07:32:37,76.95,µg/m³,Faulty,No,N/A
+04322eb0-572b-45d1-9bb2-94fe0b963202,Kaitlyn Way,Air Quality,2024-02-09 17:50:29,34.39,µg/m³,Faulty,Yes,N/A
+12b7a56b-7094-4898-8bd0-19f36f3f392c,Sanchez Shore,Traffic Flow,2024-01-16 04:28:53,0.92,vehicles/hour,Faulty,No,2024-02-26
+bb36922a-3d0f-48ba-a277-bbe87705bf5d,Holmes Via,Air Quality,2024-04-05 17:24:52,59.94,µg/m³,Active,No,N/A
+7d5e119d-82b8-44d8-896c-759eb1afa250,Jordan Mews,Traffic Flow,2024-06-12 21:24:08,69.04,vehicles/hour,Faulty,No,2024-01-07
+a826eb2f-c166-4d51-9f8b-9b4ead29493f,Thornton Center,Temperature,2024-05-15 02:23:46,83.84,°C,Inactive,No,N/A
+acf3ae12-e6e5-4a59-9ac6-83edb1ac49e3,Carrie Run,Noise Level,2024-04-24 22:37:49,83.92,dB,Inactive,No,N/A
+5205a98e-efd3-4917-a2b7-19348017c399,Marsh Gardens,Temperature,2024-04-27 07:30:30,79.19,°C,Active,Yes,N/A
+e54ab098-b47f-43d0-a669-f974ed04a2c9,Mora Wells,Traffic Flow,2024-03-06 17:21:13,10.67,vehicles/hour,Inactive,Yes,2024-08-12
+d38da6bd-ed8c-462f-9f25-7787f544315c,Walker Radial,Temperature,2024-05-27 17:16:05,64.81,°C,Faulty,No,N/A
+a257b79f-010a-4765-9ae1-c3e9acdf2def,Alan Skyway,Noise Level,2024-02-21 17:22:46,42.92,dB,Faulty,No,2024-06-13
+87ebb1c1-5bff-4644-9d91-338222cdcb1b,Campbell View,Noise Level,2024-06-12 16:14:20,93.41,dB,Active,Yes,2024-02-03
+3a2e8637-abce-4e84-a805-483772f40bff,James Centers,Temperature,2024-07-11 20:57:19,96.23,°C,Faulty,No,2024-02-08
+3af30dfa-4b6d-43ed-a950-3cabc4bd399b,Miller Roads,Noise Level,2024-05-23 11:04:46,10.6,dB,Faulty,Yes,N/A
+16be07bb-4be2-4293-a112-244e0a9ad10d,William Plaza,Temperature,2024-07-19 12:39:51,12.72,°C,Inactive,Yes,2024-08-13
+eda48934-8ee7-40ab-b305-8f4c44f4bc06,Timothy Throughway,Temperature,2024-01-18 01:39:10,2.87,°C,Inactive,No,2024-06-09
+c576cd9f-d2dd-4626-b983-92cc43f86864,Lyons Shores,Traffic Flow,2024-04-10 13:40:16,41.71,vehicles/hour,Active,Yes,N/A
+d854c26d-11b6-4071-a16c-9b6a09d008dc,Lopez Pike,Humidity,2024-05-15 08:41:56,39.87,%,Inactive,Yes,2024-01-13
+b935e324-5bbc-495b-816f-c297e1433346,Flynn Pass,Air Quality,2024-02-12 17:16:29,93.46,µg/m³,Faulty,No,2024-06-05
+42389ae3-0472-49cf-ad41-ec9746192765,Daniels Corners,Noise Level,2024-07-30 05:31:35,53.42,dB,Active,Yes,N/A
+8fbe05e0-25d6-4acd-9ac3-a40a429d2aa1,Brian Alley,Air Quality,2024-03-29 06:12:00,85.92,µg/m³,Active,No,2024-08-13
+21fe15e9-74ec-47e4-a559-d4a1f3366f8e,Joseph Shoal,Air Quality,2024-05-31 10:51:22,37.38,µg/m³,Inactive,Yes,N/A
+115beebd-6822-46ee-be99-3d9f54b4b5cc,Stokes Haven,Air Quality,2024-05-05 03:00:01,91.53,µg/m³,Faulty,No,N/A
+7cd26b3f-7a9c-43fc-be0a-0211665901ec,Ramos Ferry,Air Quality,2024-02-21 20:39:13,5.27,µg/m³,Inactive,Yes,2024-07-24
+98c4a3fc-1e71-4754-8b90-0eac064d5100,Tran Throughway,Air Quality,2024-03-12 08:37:35,7.09,µg/m³,Inactive,Yes,N/A
+a69a3e3f-1e3a-4bd8-8add-c5a68da00498,White Via,Air Quality,2024-01-31 14:09:26,89.55,µg/m³,Faulty,No,2024-01-22
+f60f3592-4d63-44b3-8544-f631300ee27e,Chavez Burgs,Humidity,2024-04-09 22:27:02,79.86,%,Faulty,No,N/A
+f6597873-9d47-45d7-8b67-ca8f9c897840,Ashley Brooks,Noise Level,2024-05-22 12:38:30,77.33,dB,Faulty,Yes,N/A
+ef087b96-620b-4e35-a6a7-346bacf1e3e5,Harrington Port,Energy Consumption,2024-01-28 10:21:37,75.07,kWh,Faulty,Yes,N/A
+25773016-adca-4f20-857a-7c287665273e,Berger Courts,Temperature,2024-02-25 16:13:34,95.05,°C,Inactive,No,N/A
+5a706cdb-3375-4f5f-b193-4cabecd39217,Christopher Pike,Air Quality,2024-07-21 19:57:15,51.23,µg/m³,Active,No,2024-03-31
+50ca57b6-0abf-4818-8346-3d1585017b58,Stephanie Curve,Traffic Flow,2024-01-16 10:15:57,16.5,vehicles/hour,Faulty,Yes,N/A
+f4bae8b4-6f90-4dcd-9963-57e6cdf44274,Key Prairie,Noise Level,2024-05-03 07:47:45,72.21,dB,Active,Yes,N/A
+0525245e-2d0f-4cfb-b231-4187268efa5a,Walton Rest,Air Quality,2024-07-13 19:32:27,39.12,µg/m³,Inactive,Yes,N/A
+a438a91e-2073-425f-931c-fc3507a63487,Mcgrath Knoll,Humidity,2024-03-25 02:44:55,67.07,%,Active,No,2024-02-15
+f9e35a82-4fa1-4df7-a210-80add3e276c5,Amber Crescent,Temperature,2024-07-04 05:11:43,50.37,°C,Active,No,2024-08-23
+a753ea80-78f6-4406-9b04-3b2b13038176,Ashley Ferry,Humidity,2024-07-03 09:47:02,17.99,%,Active,Yes,N/A
+ac240f95-653f-4ced-9893-f0a17430ca38,Blake Lights,Noise Level,2024-06-24 10:23:06,57.7,dB,Faulty,No,N/A
+8e9141e4-307e-471f-ae3d-009de5466cd4,Schultz Club,Noise Level,2024-07-18 04:03:29,1.28,dB,Inactive,No,2024-01-22
+6845b42e-ab24-45ce-a014-70aea4ab14da,Maria Via,Humidity,2024-02-02 09:15:47,39.11,%,Faulty,Yes,N/A
+81a67e29-038d-491d-a2f9-1eb7a29d89df,Campbell Prairie,Traffic Flow,2024-03-17 17:32:48,7.81,vehicles/hour,Faulty,No,N/A
+6abb8868-3eff-4488-af75-0a8092fe4401,Denise Ranch,Temperature,2024-05-07 14:35:57,78.4,°C,Faulty,Yes,N/A
+f9a21876-35f4-4fc5-a9fb-122242e72756,Diana Plains,Air Quality,2024-07-05 00:58:05,84.31,µg/m³,Faulty,Yes,2024-05-31
+9b5421ea-932a-43f0-adb1-a048c8c341d9,Ryan Trafficway,Traffic Flow,2024-04-12 22:15:02,65.16,vehicles/hour,Active,No,N/A
+c1e05d65-4c8f-4296-ad08-b8dcf50f2489,James Road,Traffic Flow,2024-01-22 06:04:43,23.85,vehicles/hour,Inactive,Yes,N/A
+282f34ec-e982-4e02-9301-bc40e2a7c194,Hester Canyon,Traffic Flow,2024-01-19 13:09:06,83.29,vehicles/hour,Active,Yes,2024-04-24
+880ef395-1261-4826-b3fb-ee268e003706,Thompson Path,Air Quality,2024-03-16 19:22:41,46.13,µg/m³,Faulty,Yes,N/A
+5b461b78-3859-4840-9f4f-c01036c8f248,Palmer Forges,Air Quality,2024-05-24 04:52:36,55.15,µg/m³,Active,Yes,N/A
+829a22bb-4e49-44e2-aed1-8d2e1a3a61e8,Debra Port,Air Quality,2024-08-26 01:02:54,18.03,µg/m³,Active,Yes,N/A
+818755ba-22cc-42aa-aa6a-38bf87996b75,Cline Throughway,Temperature,2024-05-21 18:20:36,57.06,°C,Inactive,Yes,2024-05-01
+366963fd-1e86-41b0-a322-2d9f5da4a065,Matthew Turnpike,Temperature,2024-03-11 06:10:43,76.54,°C,Inactive,No,N/A
+d6a70395-dd24-42e5-bdb7-67a747626db5,Richard Squares,Air Quality,2024-03-18 10:13:30,54.81,µg/m³,Active,No,2024-06-16
+2b55f3d1-4ba5-48db-91ae-4a242b5297f8,Greene Greens,Temperature,2024-08-20 03:13:04,49.11,°C,Faulty,Yes,2024-03-07
+003cef0b-df88-437a-aa1f-3eb5113c1348,Anthony Trace,Air Quality,2024-02-03 14:01:53,34.92,µg/m³,Faulty,No,N/A
+ebf3a717-a636-40d3-a4b4-353996b7ce8c,Annette Unions,Energy Consumption,2024-07-20 18:09:42,87.27,kWh,Active,No,N/A
+78f101fa-2587-4fd2-8d6d-7e9da4c919ef,Richard Square,Traffic Flow,2024-06-19 22:44:50,99.57,vehicles/hour,Inactive,No,N/A
+fe156dfa-eb38-4cfd-8f30-3bd76bd13396,Michael Viaduct,Air Quality,2024-05-22 01:15:51,86.71,µg/m³,Faulty,No,2024-08-17
+c7259d30-fa67-40c1-9573-d3876050e78d,Hill Neck,Air Quality,2024-02-06 11:48:21,93.23,µg/m³,Active,Yes,2024-01-07
+5239cacd-20af-4b3e-b009-e273fcf03f8b,Bautista Dam,Noise Level,2024-06-22 04:20:33,99.96,dB,Faulty,Yes,2024-04-13
+6aa07fe8-449f-43d5-9c71-8e7a2f89e1c5,Richard Common,Air Quality,2024-06-29 23:04:29,75.84,µg/m³,Inactive,No,2024-07-06
+be93f8b4-0c7b-4c32-9cb3-e1bbdf71a395,Thomas Plain,Temperature,2024-07-13 18:24:54,20.49,°C,Faulty,Yes,N/A
+02841539-12ac-4680-ad53-aa5ef2874c42,Eric Freeway,Air Quality,2024-04-05 19:35:27,6.98,µg/m³,Inactive,No,2024-04-12
+f4800b11-703d-48e1-af2b-eeb38310138a,Courtney Rest,Air Quality,2024-06-23 16:35:36,42.06,µg/m³,Inactive,Yes,N/A
+eb1422e4-144f-410a-92ba-fbcf017fa66d,Tonya Shoals,Temperature,2024-03-26 02:14:56,53.41,°C,Faulty,No,N/A
+9e07b810-7607-424a-bee4-3b599baa67c4,Angela Haven,Traffic Flow,2024-05-07 07:33:55,22.98,vehicles/hour,Faulty,No,N/A
+c6c53ec1-3a84-450f-b83e-e6faa9ebe8ef,Sarah Stream,Humidity,2024-04-15 18:04:16,64.51,%,Active,No,2024-07-21
+f46248eb-677e-4ae3-ad3b-ccdf979a19ea,Hernandez Squares,Humidity,2024-05-22 16:34:33,27.82,%,Active,Yes,2024-06-24
+00aa390b-4770-4be2-a793-446bf7527e7b,Sexton Alley,Noise Level,2024-03-16 20:44:16,90.73,dB,Inactive,Yes,N/A
+4214e400-b6dd-49a0-a3ab-97047235f0f1,Leah Loop,Noise Level,2024-01-11 23:08:18,82.74,dB,Inactive,No,2024-08-12
+669d5252-dda5-4ad2-88b6-45133aa4f8ae,Johnson Islands,Air Quality,2024-04-18 21:45:38,99.87,µg/m³,Inactive,Yes,N/A
+c93bad8b-f59b-40e0-93a7-1c4ed96b1d4d,Michelle Way,Traffic Flow,2024-03-19 09:55:55,81.7,vehicles/hour,Inactive,No,N/A
+bcef6b81-4a96-4cab-a9c1-33ecfdecd46d,Javier Burgs,Energy Consumption,2024-01-28 08:20:52,16.18,kWh,Inactive,No,2024-03-16
+b89cc3c7-759f-4c3b-bb72-17cebbf2010a,Woods Hollow,Traffic Flow,2024-05-21 12:54:11,57.83,vehicles/hour,Inactive,Yes,2024-08-14
+fbe171d1-c338-488a-90cb-639cbf9c111a,Perez Club,Energy Consumption,2024-04-04 20:48:04,46.53,kWh,Active,No,2024-02-26
+ae1ac644-fbf6-407c-b01f-a4a2fa5b15da,Craig Bypass,Noise Level,2024-08-25 18:55:46,97.42,dB,Faulty,Yes,2024-03-14
+e0eb8c17-36bc-41cc-b438-ecb8bc570fed,Stokes Estate,Temperature,2024-03-24 20:27:54,58.25,°C,Active,No,N/A

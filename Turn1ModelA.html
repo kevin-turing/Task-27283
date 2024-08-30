@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensor Data Visualization</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Chart.js for charts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4"></script>
+    <style>
+        body { padding: 20px; }
+        .chart-container { width: 100%; height: 400px; margin: 20px 0; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2 class="text-center">Sensor Data Analysis</h2>
+    <!-- File upload for CSV -->
+    <input type="file" id="csvFileInput" accept=".csv" class="form-control-file mb-3">
+    
+    <!-- Dropdown for location selection -->
+    <select id="locationSelect" class="form-control mb-3" onchange="updateCharts()"></select>
+
+    <div class="row">
+        <div class="col-md-6">
+            <canvas id="failureRateChart" class="chart-container"></canvas>
+        </div>
+        <div class="col-md-6">
+            <canvas id="predictiveFailureChart" class="chart-container"></canvas>
+        </div>
+    </div>
+</div>
+
+<script>
+    let data = []; // Will store parsed CSV data
+    let locations = new Set();
+    
+    document.getElementById('csvFileInput').addEventListener('change', function(event) {
+        const file = event.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const text = e.target.result;
+                data = parseCSV(text);
+                populateLocations();
+                updateCharts();
+            };
+            reader.readAsText(file);
+        }
+    });
+
+    function parseCSV(text) {
+        // This function should be implemented to parse CSV content
+        // Here's a placeholder for actual parsing logic
+        return text.split('\n').map(row => row.split(','));
+    }
+
+    function populateLocations() {
+        locations = new Set(data.map(row => row[1])); // Assuming Location is in second column
+        const select = document.getElementById('locationSelect');
+        select.innerHTML = ''; // Clear previous options
+        locations.forEach(location => {
+            const option = document.createElement('option');
+            option.value = location;
+            option.textContent = location;
+            select.appendChild(option);
+        });
+    }
+
+    function updateCharts() {
+        const selectedLocation = document.getElementById('locationSelect').value;
+        const filteredData = data.filter(row => row[1] === selectedLocation);
+
+        // Sensor failure rate chart
+        let failureData = analyzeFailureRate(filteredData);
+        renderBarChart('failureRateChart', 'Sensor Failure Rate', failureData);
+
+        // Predictive analysis for next failures
+        let predictiveData = predictFailures(filteredData);
+        renderPieChart('predictiveFailureChart', 'Predicted Next Failures', predictiveData);
+    }
+
+    function analyzeFailureRate(data) {
+        let types = {};
+        data.forEach(row => {
+            if (row[6] !== 'Active') { // Assuming Status is in 7th column
+                types[row[2]] = (types[row[2]] || 0) + 1; // SensorType in 3rd column
+            }
+        });
+        return {labels: Object.keys(types), data: Object.values(types)};
+    }
+
+    function predictFailures(data) {
+        // Simple prediction: Sensors that have not been maintained recently and are inactive
+        let prediction = {};
+        const now = new Date();
+        data.forEach(row => {
+            if (row[7] === 'Yes') { // MaintenanceRequired
+                const lastMaintenance = new Date(row[8]); // LastMaintenanceDate
+                const timeSinceMaintenance = now - lastMaintenance;
+                if (timeSinceMaintenance > 30 * 24 * 60 * 60 * 1000) { // More than 30 days
+                    prediction[row[2]] = (prediction[row[2]] || 0) + 1;
+                }
+            }
+        });
+        return {labels: Object.keys(prediction), data: Object.values(prediction)};
+    }
+
+    function renderBarChart(canvasId, title, chartData) {
+        new Chart(document.getElementById(canvasId), {
+            type: 'bar',
+            data: {
+                labels: chartData.labels,
+                datasets: [{
+                    label: 'Failure Count',
+                    data: chartData.data,
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: { scales: { yAxes: [{ ticks: { beginAtZero: true } }] }, title: { display: true, text: title }}
+        });
+    }
+
+    function renderPieChart(canvasId, title, chartData) {
+        new Chart(document.getElementById(canvasId), {
+            type: 'pie',
+            data: {
+                labels: chartData.labels,
+                datasets: [{
+                    data: chartData.data,
+                    backgroundColor: ['#FF6384','#36A2EB','#FFCE56','#4BC0C0','#9966FF','#E7E9ED'],
+                }]
+            },
+            options: { title: { display: true, text: title }}
+        });
+    }
+</script>
+
+</body>
+</html>

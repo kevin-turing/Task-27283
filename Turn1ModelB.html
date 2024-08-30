@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensor Data Visualization</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+<div class="container mt-5">
+    <input type="file" id="csvFileInput" class="form-control-file">
+    <select id="citySelect" class="form-control mt-3" onchange="updateCharts()"></select>
+    <div class="row">
+        <div class="col-md-6">
+            <canvas id="statusChart"></canvas>
+        </div>
+        <div class="col-md-6">
+            <canvas id="maintenanceChart"></canvas>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <canvas id="locationSensorChart"></canvas>
+        </div>
+    </div>
+</div>
+
+<script>
+    let data = [];
+    const ctxStatus = document.getElementById('statusChart').getContext('2d');
+    const ctxMaintenance = document.getElementById('maintenanceChart').getContext('2d');
+    const ctxLocationSensor = document.getElementById('locationSensorChart').getContext('2d');
+
+    document.getElementById('csvFileInput').addEventListener('change', handleFileSelect);
+
+    function handleFileSelect(evt) {
+        Papa.parse(evt.target.files[0], {
+            header: true,
+            dynamicTyping: true,
+            complete: function(results) {
+                data = results.data;
+                populateCitySelect();
+                updateCharts();
+            }
+        });
+    }
+
+    function populateCitySelect() {
+        const citySelect = document.getElementById('citySelect');
+        const cities = [...new Set(data.map(item => item.Location.split(' ')[0]))];
+        cities.forEach(city => {
+            const option = document.createElement('option');
+            option.text = city;
+            option.value = city;
+            citySelect.appendChild(option);
+        });
+    }
+
+    function updateCharts() {
+        const selectedCity = document.getElementById('citySelect').value;
+        const filteredData = data.filter(item => item.Location.startsWith(selectedCity));
+
+        const statusCounts = countStatus(filteredData);
+        const maintenanceAnalysis = analyzeMaintenance(filteredData);
+
+        displayStatusChart(statusCounts);
+        displayMaintenanceChart(maintenanceAnalysis);
+        displayLocationSensorChart(filteredData);
+    }
+
+    function countStatus(data) {
+        const statusCounts = {};
+        data.forEach(item => {
+            if (!statusCounts[item.Status]) statusCounts[item.Status] = 0;
+            statusCounts[item.Status]++;
+        });
+        return statusCounts;
+    }
+
+    function analyzeMaintenance(data) {
+        const maintenanceData = {};
+        data.forEach(item => {
+            const type = item.SensorType;
+            if (!maintenanceData[type]) maintenanceData[type] = { total: 0, needsMaintenance: 0 };
+            maintenanceData[type].total++;
+            if (item.MaintenanceRequired === 'Yes') maintenanceData[type].needsMaintenance++;
+        });
+        return maintenanceData;
+    }
+
+    function displayStatusChart(statusCounts) {
+        new Chart(ctxStatus, {
+            type: 'pie',
+            data: {
+                labels: Object.keys(statusCounts),
+                datasets: [{
+                    data: Object.values(statusCounts),
+                    backgroundColor: ['green', 'red', 'yellow'],
+                }]
+            }
+        });
+    }
+
+    function displayMaintenanceChart(maintenanceData) {
+        const labels = Object.keys(maintenanceData);
+        const dataset = labels.map(type => maintenanceData[type].needsMaintenance / maintenanceData[type].total * 100);
+
+        new Chart(ctxMaintenance, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: '% Sensors Needing Maintenance',
+                    data: dataset,
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    borderWidth: 1
+                }]
+            }
+        });
+    }
+
+    function displayLocationSensorChart(data) {
+        new Chart(ctxLocationSensor, {
+            type: 'line',
+            data: {
+                labels: data.map(item => item.ReadingTime),
+                datasets: data.map(item => ({
+                    label: item.SensorType,
+                    data: [item.Value],
+                    fill: false,
+                    borderColor: getRandomColor()
+                }))
+            }
+        });
+    }
+
+    function getRandomColor() {
+        const letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+</script>
+
+</body>
+</html>
